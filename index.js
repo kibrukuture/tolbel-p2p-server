@@ -22,4 +22,4 @@ peerServer.on('error', (err) => {
 // on message
 peerServer.on('message', (client, message) => console.log('Client message', client.id, message));
 
-console.log('PeerJs server is running at port: ', process.env.PEER_TO_PEER_PORT);
+console.log(' PeerJs server is running at port:  ', process.env.PEER_TO_PEER_PORT);
