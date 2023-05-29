@@ -2,7 +2,7 @@ import { PeerServer } from 'peer';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const peerServer = PeerServer({ port: process.env.PORT, path: '/' });
+const peerServer = PeerServer({ port: process.env.PEER_TO_PEER_PORT, path: '/' });
 
 // on connection
 peerServer.on('connection', (client) => {
