@@ -31,8 +31,3 @@ console.log(
   " PeerJs server is running at port:  ",
   process.env.PEER_TO_PEER_PORT
 );
-
-// todo
-function checkP2PCompatability(peerObj, isCompatable) {
-  return true; // this is a demo
-}
